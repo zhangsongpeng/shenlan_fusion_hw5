@@ -1,0 +1,13 @@
+init_noise: [1e-4, 1e-4, 1e-4, 1e-4, 1e-4]
+init_dx: [0e-4, 0e-4, 0e-4, 0e-2, 0e-2]
+gyro_noise: 1e-5
+acc_noise: 1e-4
+dp_noise: 1e-6
+odo_noise: 1e-6
+mag_noise: 1e-6
+end_time: 5000.0
+FGsize: 20
+time_interval: 1
+correct: true
+use_odom: true
+use_mag: false
